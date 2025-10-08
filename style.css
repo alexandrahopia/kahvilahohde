@@ -88,6 +88,24 @@ footer {
 .menu-card:hover {
   transform: scale(1.02);
 }
+/* Korjaa karusellin koko lopullisesti */
+.carousel-inner {
+  max-height: 400px !important;   /* rajoittaa karusellin korkeuden */
+}
+.carousel-inner img {
+  height: 400px !important;
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .carousel-inner,
+  .carousel-inner img {
+    max-height: 200px !important;
+    height: 200px !important;
+  }
+}
+
+
 
 
 
