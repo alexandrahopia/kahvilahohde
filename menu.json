@@ -1,0 +1,30 @@
+{
+  "juomat": [
+    { "nimi": "Latte", "hinta": "3 €", "kuvaus": "Kermaisa espressojuoma." },
+    { "nimi": "Mocha", "hinta": "4 €", "kuvaus": "Suklainen espresso ja maito." },
+    { "nimi": "Macchiato", "hinta": "5 €", "kuvaus": "Espresso pienellä maitovaahdolla." },
+    { "nimi": "Americano", "hinta": "6 €", "kuvaus": "Pidennetty espresso." },
+    { "nimi": "Cappuccino", "hinta": "7 €", "kuvaus": "Espresso ja kuohkea vaahto." },
+    { "nimi": "Musta kahvi", "hinta": "2 €", "kuvaus": "Suodatinkahvi." },
+    { "nimi": "Vihreä tee", "hinta": "4 €", "kuvaus": "Raikas vihreä tee." },
+    { "nimi": "Sitruunatee", "hinta": "2 €", "kuvaus": "Lämmin sitruuna." },
+    { "nimi": "Jasmiinitee", "hinta": "3 €", "kuvaus": "Kukkainen jasmiini." },
+    { "nimi": "Litsitee", "hinta": "4 €", "kuvaus": "Hedelmäinen litsin maku." },
+    { "nimi": "Frappe Karamelli", "hinta": "7 €", "kuvaus": "Kylmä kahvijuoma karamellilla." }
+  ],
+  "lounas": [
+    { "nimi": "Maanantai – Kermainen lohikeitto", "hinta": "8,90 €", "kuvaus": "Leipä ja levite" },
+    { "nimi": "Tiistai – Kana-pasta uunissa", "hinta": "10,90 €", "kuvaus": "Reilu annos" },
+    { "nimi": "Keskiviikko – Kasvissosekeitto", "hinta": "8,90 €", "kuvaus": "Vegaaninen" },
+    { "nimi": "Torstai – Jauhelihakiusaus", "hinta": "10,90 €", "kuvaus": "Perinteinen" },
+    { "nimi": "Perjantai – Tortillabuffet", "hinta": "10,90 €", "kuvaus": "Valitse täytteet" }
+  ],
+  "purtava": [
+    { "nimi": "Täytetty sämpylä", "hinta": "5 €", "kuvaus": "Tuore ja reilu täyte." },
+    { "nimi": "Focaccia", "hinta": "6 €", "kuvaus": "Rosmariini & oliiviöljy." },
+    { "nimi": "Quiche", "hinta": "5 €", "kuvaus": "Päivän maku." },
+    { "nimi": "Korvapuusti", "hinta": "4 €", "kuvaus": "Kardemumma!" },
+    { "nimi": "Juustokakku", "hinta": "5 €", "kuvaus": "Kermainen klassikko." },
+    { "nimi": "Marjapiirakka", "hinta": "5 €", "kuvaus": "Sesongin marjat." }
+  ]
+}
