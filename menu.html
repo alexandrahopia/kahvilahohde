@@ -8,48 +8,50 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body class="bg-light"> <!-- 🔸 lisätty yhtenäinen tausta -->
   <!-- Navigaatio -->
   <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top shadow-sm">
-  <div class="container">
-    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-      <img src="logo_hohde.jpeg" alt="Kahvila Hohde logo" width="36" height="36" class="rounded-circle">
-      <span class="fw-semibold">Kahvila Hohde</span>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="nav">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link" href="index.html">Etusivu</a></li>
-        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">Meistä</a></li>
-        <li class="nav-item">
-          <a class="btn btn-nav ms-lg-2 px-3" href="contact.html">Varaa tila / Yhteystiedot</a>
-        </li>
-      </ul>
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="logo_hohde.jpeg" alt="Kahvila Hohde logo" width="36" height="36" class="rounded-circle">
+        <span class="fw-semibold">Kahvila Hohde</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Etusivu</a></li>
+          <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Meistä</a></li>
+          <li class="nav-item">
+            <a class="btn btn-nav ms-lg-2 px-3" href="contact.html">Varaa tila / Yhteystiedot</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
-
+  </nav>
 
   <!-- Otsikko -->
-  <header class="text-center py-5">
+  <header class="text-center py-5 bg-white shadow-sm">
     <h1 class="fw-bold">Menu</h1>
     <p>Tutustu kahvilamme juomiin, lounaaseen ja pieneen purtavaan</p>
   </header>
 
   <!-- Menu-osio -->
-  <div class="container menu-section">
-    <h2>Juomat</h2>
-    <div class="row" id="juomat"></div>
+  <main class="py-5 bg-light">
+    <div class="container menu-section">
+      <h2>Juomat</h2>
+      <div class="row" id="juomat"></div>
 
-    <h2>Lounas</h2>
-    <div class="row" id="lounas"></div>
+      <h2>Lounas</h2>
+      <div class="row" id="lounas"></div>
 
-    <h2>Pientä purtavaa</h2>
-    <div class="row" id="purtava"></div>
-  </div>
+      <h2>Pientä purtavaa</h2>
+      <div class="row" id="purtava"></div>
+    </div>
+  </main>
 
   <footer class="py-4 border-top text-center bg-white">
     <small>© <span id="year"></span> Kahvila Hohde</small>
@@ -59,4 +61,5 @@
   <script src="script.js"></script>
 </body>
 </html>
+
 
